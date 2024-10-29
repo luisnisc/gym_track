@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --enlace-color: #ff00fb;
+  --default-font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 41, 41);
+}
+
+a {
+  color: var(--enlace-color);
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
